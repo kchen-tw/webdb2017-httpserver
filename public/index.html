@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <button>查詢</button><br>
+    <textarea rows="4" cols="50">
+    </textarea>
+    <table>
+        <thead>
+            <td>學號</td>
+            <td>姓名</td>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+
+
+    <form action="http://127.0.0.1:1337/insert/student/" method="post">
+        學號<br>
+        <input type="text" name="sid"><br> 姓名
+        <br>
+        <input type="text" name="name">
+        <input type="submit" value="Submit">
+    </form>
+
+    <script src="./js/jquery-3.2.1.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
